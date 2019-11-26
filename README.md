@@ -14,7 +14,7 @@
 
 * [ЛЕКЦИЯ 3.](https://github.com/vinni-bio/MS-SBM-Bioinformatics#%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-3-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B3%D0%B5%D0%BD%D0%BE%D0%BC%D0%B0-%D1%8D%D1%83%D0%BA%D0%B0%D1%80%D0%B8%D0%BE%D1%82) Организация генома эукариот
 
-   [ПРАКТИКА 3.](Анализ дрожжевого генома)  
+   [ПРАКТИКА 3.](https://github.com/vinni-bio/MS-SBM-Bioinformatics#%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0-3-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7-%D0%B4%D1%80%D0%BE%D0%B6%D0%B6%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D0%B3%D0%B5%D0%BD%D0%BE%D0%BC%D0%B0) Анализ дрожжевого генома  
 
 ## ЛЕКЦИЯ 1. Введение в биоинформатику. Основные понятия.
 * Три кита биоинформатики: биология, компьютерные науки, статистика
@@ -198,5 +198,5 @@ gunzip путь/к/файлу1.gz
 
    Данные по аннотации дрожжевого генома: [SGD_features.tab](https://downloads.yeastgenome.org/curation/chromosomal_feature/SGD_features.tab)  
    Инструкция к аннотации [SGD_features.README](https://downloads.yeastgenome.org/curation/chromosomal_feature/SGD_features.README)  
-
+   
 
