@@ -56,8 +56,8 @@
 
 ### Файлы для решения заданий
 
-   Видовые названия: [species.txt](https://raw.githubusercontent.com/vinni-bio//MS-SBM-Bioinformatics/FILES/species.txt)  
-   Координаты: [coordinates.txt](https://raw.githubusercontent.com/vinni-bio//MS-SBM-Bioinformatics/FILES/coordinates.txt)  
-   Аминокислотные последовательности: [proteins.txt](https://raw.githubusercontent.com/vinni-bio//MS-SBM-Bioinformatics/FILES/proteins.txt)  
-   Журнал наблюдений: [observations.txt](https://raw.githubusercontent.com/vinni-bio//MS-SBM-Bioinformatics/FILES/observations.txt)  
-   
+   Видовые названия: [species.txt](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/species.txt)  
+   Координаты: [coordinates.txt](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/coordniates.txt)  
+   Журнал наблюдений: [observations.txt](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/observatinons.txt)  
+   Аминокислотные последовательности: [proteins.fas](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/proteins.fas)  
+
