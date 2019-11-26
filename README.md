@@ -133,20 +133,39 @@
 ##### 2.2. GREP#1:
 * создайте отдельный файл с названиями последовательностей
 * создайте отдельный файл с названиями последовательностей, у которых встречается следующий паттерн "GAATTC"
+* проверьте сколько последовательностей было обнаружено
 
 ##### 2.3. GREP#2:
 * скачайте файл с экспериментальными данными из Shaver et al., 2007
 * выведите на экран заголовок таблицы
+* сколько всего записей содержит таблица?
 * сохраните в отдельный файл записи, касающиеся сборов в Toolik Lake
 * из них отдельно сохраните записи особей, собранных в августе
 
 ### Файлы для упражнений
 
    Последовательности нуклеотидов: [SEQUENCES](https://github.com/vinni-bio/MS-SBM-Bioinformatics/tree/master/FILES/Sequences)  
-   Экспериментальные данные: [shaver_etal.csv](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/shaver_etal.csv) 
-   Данные по аннотации дрожжевого генома: 
+   Экспериментальные данные: [shaver_etal.csv](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/shaver_etal.csv)  
 
-## ЛЕКЦИЯ 3. Организация генома эукариот.
+## ЛЕКЦИЯ 3. Организация генома эукариот
 
+* [SGD: Saccharomyces Genome Database](http://www.yeastgenome.org/)
+
+## ПРАКТИКА 3. Анализ дрожжевого генома
+
+### Упражнения
+
+##### 3.1. GREP#3:
+* скачайте файл с аннотацией дрожжевого генома
+* выведите на экран первые 10 строк
+* сколько всего записей содержит таблица?
+* сколько всего ORF аннотаций есть в геноме?
+* сколько всего хромосом в дрожжевом геноме?
+* какая хромосома имеет наибольшую последовательность нуклеотидов?
+
+### Файлы для упражнений
+
+   Данные по аннотации дрожжевого генома: [SGD_features.tab](https://downloads.yeastgenome.org/curation/chromosomal_feature/SGD_features.tab)  
+   Инструкция к аннотации [SGD_features.README](https://downloads.yeastgenome.org/curation/chromosomal_feature/SGD_features.README)  
 
 
