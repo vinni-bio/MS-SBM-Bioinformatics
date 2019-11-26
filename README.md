@@ -8,10 +8,13 @@
 
    [ПРАКТИКА 1.](https://github.com/vinni-bio/MS-SBM-Bioinformatics#%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0-1-%D1%80%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5-%D0%B2%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F) Регулярные выражения  
 
-* ЛЕКЦИЯ 2. Базы геномных данных. Введение в информатику. OS Linux.
+* [ЛЕКЦИЯ 2.](https://github.com/vinni-bio/MS-SBM-Bioinformatics#%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-2-%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B3%D0%B5%D0%BD%D0%BE%D0%BC%D0%BD%D1%8B%D1%85-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D1%83-os-linux) Базы геномных данных. Введение в информатику. OS Linux.
 
-   ПРАКТИКА 2. Работа и управление данными в системе Linux  
+   [ПРАКТИКА 2.](https://github.com/vinni-bio/MS-SBM-Bioinformatics#%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0-2-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-linux) Работа и управление данными в системе Linux  
 
+* [ЛЕКЦИЯ 3.](https://github.com/vinni-bio/MS-SBM-Bioinformatics#%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-3-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B3%D0%B5%D0%BD%D0%BE%D0%BC%D0%B0-%D1%8D%D1%83%D0%BA%D0%B0%D1%80%D0%B8%D0%BE%D1%82) Организация генома эукариот
+
+   [ПРАКТИКА 3.](Анализ дрожжевого генома)  
 
 ## ЛЕКЦИЯ 1. Введение в биоинформатику. Основные понятия.
 * Три кита биоинформатики: биология, компьютерные науки, статистика
@@ -75,6 +78,7 @@
 * [NCBI: National Center for Biotechnology Information](http://www.ncbi.nlm.nih.gov/)
 * [EMBL: European Molecular Biology Laboratory](http://www.embl.org/)
 * [DDBJ: DNA Data Bank of Japan](http://www.ddbj.nig.ac.jp/)
+* [ENSEMBL](https://www.ensembl.org/index.html)
 * [UCSC Genome Browser](http://hgdownload.soe.ucsc.edu/downloads.html)
 * [FlyBase](http://flybase.org/)
 * [WormBase](https://www.wormbase.org/)
@@ -146,22 +150,49 @@
 
    Последовательности нуклеотидов: [SEQUENCES](https://github.com/vinni-bio/MS-SBM-Bioinformatics/tree/master/FILES/Sequences)  
    Экспериментальные данные: [shaver_etal.csv](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/shaver_etal.csv)  
-
+ 
 ## ЛЕКЦИЯ 3. Организация генома эукариот
 
 * [SGD: Saccharomyces Genome Database](http://www.yeastgenome.org/)
 
 ## ПРАКТИКА 3. Анализ дрожжевого генома
 
+### Сжатие данных
+
+##### **Создание архива** (Create, a Zipped, File with Verbose)
+```
+tar czfv архив.tar.gz путь/к/файлу1 путь/к/файлу2
+ИЛИ
+gzip путь/к/файлу1 
+```
+
+##### **Распаковка архива** (eXtract, a Zipped, File with Verbose)
+```
+tar xzfv архив.tar.gz
+ИЛИ
+gunzip путь/к/файлу1.gz 
+```
+
+### AWK инструкции
+
+### bioawk инструкции
+
 ### Упражнения
 
 ##### 3.1. GREP#3:
 * скачайте файл с аннотацией дрожжевого генома
+* переименуйте файл с аннотацией в `sc.tab`
 * выведите на экран первые 10 строк
 * сколько всего записей содержит таблица?
-* сколько всего ORF аннотаций есть в геноме?
+* сколько всего ORF аннотаций есть в геноме (т.е., сколько предположительных генов)?
 * сколько всего хромосом в дрожжевом геноме?
 * какая хромосома имеет наибольшую последовательность нуклеотидов?
+* сколько геномных характеристик имеет код `YAL060W`?
+* сохраните все уникальные геномные характеристики в отдельный файл `features.tab`
+* сколько раз каждая геномная характеристика встречается в дрожжевом геноме?
+* какая характеристика встречается наиболее часто?
+* сколько записей в дрожжевом геноме не имеет сомнительную аннотацию (Dubious)?
+* создайте tar и zip архивы с аннотацией дрожжевого генома
 
 ### Файлы для упражнений
 
