@@ -1,2 +1,10 @@
+#### THESE FILES AND FOLDERS WILL BE IGNORED BY GIT
+
+#Log files
+*.log
+
+#COMP/CACHE files
 .DS_Store
+*.pyc
+__pycache__/
 
