@@ -70,6 +70,23 @@
 
 ## ЛЕКЦИЯ 2. Базы геномных данных. Введение в информатику. OS Linux.
 
+##### БАЗЫ ГЕНОМНЫХ ДАННЫХ:
+* [INSDC: International Nucleotide Sequence Database Collaboration](http://www.insdc.org/)
+* [NCBI: National Center for Biotechnology Information](http://www.ncbi.nlm.nih.gov/)
+* [EMBL: European Molecular Biology Laboratory](http://www.embl.org/)
+* [DDBJ: DNA Data Bank of Japan](http://www.ddbj.nig.ac.jp/)
+* [UCSC Genome Browser](http://hgdownload.soe.ucsc.edu/downloads.html)
+* [FlyBase](http://flybase.org/)
+* [WormBase](https://www.wormbase.org/)
+* [SGD: Saccharomyces Genome Database](http://www.yeastgenome.org/)
+* [RNA-Central](http://rnacentral.org/)
+* [TAIR](https://www.arabidopsis.org/)
+* [EcoCyc](http://ecocyc.org/)
+* [HUMAN1000](https://www.internationalgenome.org/)
+* [ENCODE](https://www.encodeproject.org/)
+* [UniProt: Swiss-Prot & TrEMBL](https://www.uniprot.org/)
+
+
 ## ПРАКТИКА 2. Основные команды Linux
 
 | ФАЙЛЫ | ДИРЕКТОРИИ | СИСТЕМА | УПРАВЛЕНИЕ |
@@ -86,10 +103,10 @@
 | `head` – первые строки | `-` – предыдущая папка | `fdisk` – разделы диска | `pkill` – остановка процесса |
 | `tail` – конечные строки | `du` – размер папки | `ps` – активные процессы | `kill` – остановка программы |
 | `wc` – счетчик | `wget` – скачивание | `lsof` – открытые файлы | `killall` – остановить все процессы |
-| `grep` – поиск строк | | `alias` – сокращения команд | `fg` – запуск процесса |
+| `grep` – поиск строк | `curl` – скачивание | `alias` – сокращения команд | `fg` – запуск процесса |
 | `sort` – сортировка строк | | `clear` – очистка экрана | `bg` – запуск в фоновом режиме |
 | `uniq` – уникальные строки | | `man` – помощь по команде | `echo` – вывод в консоль |
-| `cut` –  разделение строк | | `mount` – управление дисками | `env` – вывод всех переменных bash |
+| `cut` –  разделение строк | `history` – история команд | `mount` – управление дисками | `env` – вывод всех переменных bash |
 
 ##### Управление *bash* нажатием клавиш
    `Ctr+L` – очистка экрана  
@@ -105,6 +122,29 @@
    `$USER` – имя пользователя  
    `$PATH` – путь запуска программ  
    `$SHELL` – имя консоли  
+
+### Упражнения
+
+##### 2.1. Конкатенация и wildcards:
+* скачайте файлы с последовательностями
+* объедините все последовательности в один файл
+* сохраните последовательности в отдельные файлы для каждой особи
+
+##### 2.2. GREP#1:
+* создайте отдельный файл с названиями последовательностей
+* создайте отдельный файл с названиями последовательностей, у которых встречается следующий паттерн "GAATTC"
+
+##### 2.3. GREP#2:
+* скачайте файл с экспериментальными данными из Shaver et al., 2007
+* выведите на экран заголовок таблицы
+* сохраните в отдельный файл записи, касающиеся сборов в Toolik Lake
+* из них отдельно сохраните записи особей, собранных в августе
+
+### Файлы для упражнений
+
+   Последовательности нуклеотидов: [SEQUENCES](https://github.com/vinni-bio/MS-SBM-Bioinformatics/tree/master/FILES/Sequences)  
+   Экспериментальные данные: [shaver_etal.csv](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/shaver_etal.csv) 
+   Данные по аннотации дрожжевого генома: 
 
 ## ЛЕКЦИЯ 3. Организация генома эукариот.
 
