@@ -68,7 +68,7 @@
 
    Видовые названия: [species.txt](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/species.txt)  
    Координаты: [coordinates.txt](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/coordniates.txt)  
-   Журнал наблюдений: [observations.txt](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/observatinons.txt)  
+   Журнал наблюдений: [observations.txt](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/observations.txt)  
    Аминокислотные последовательности: [proteins.fas](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/proteins.fas)  
 
 ## ЛЕКЦИЯ 2. Базы геномных данных. Введение в информатику. OS Linux.
