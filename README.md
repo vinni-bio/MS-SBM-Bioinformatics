@@ -66,10 +66,10 @@
 
 ### Файлы для упражнений
 
-   Видовые названия: [species.txt](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/species.txt)  
-   Координаты: [coordinates.txt](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/coordniates.txt)  
-   Журнал наблюдений: [observations.txt](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/observations.txt)  
-   Аминокислотные последовательности: [proteins.fas](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/proteins.fas)  
+   Видовые названия: [species.txt](https://raw.githubusercontent.com/vinni-bio/MS-SBM-Bioinformatics/master/FILES/species.txt)  
+   Координаты: [coordinates.txt](https://raw.githubusercontent.com/vinni-bio/MS-SBM-Bioinformatics/master/FILES/coordniates.txt)  
+   Журнал наблюдений: [observations.txt](https://raw.githubusercontent.com/vinni-bio/MS-SBM-Bioinformatics/master/FILES/observations.txt)  
+   Аминокислотные последовательности: [proteins.fas](https://raw.githubusercontent.com/vinni-bio/MS-SBM-Bioinformatics/master/FILES/proteins.fas)  
 
 ## ЛЕКЦИЯ 2. Базы геномных данных. Введение в информатику. OS Linux.
 
@@ -149,7 +149,7 @@
 ### Файлы для упражнений
 
    Последовательности нуклеотидов: [SEQUENCES](https://github.com/vinni-bio/MS-SBM-Bioinformatics/tree/master/FILES/Sequences)  
-   Экспериментальные данные: [shaver_etal.csv](https://github.com/vinni-bio/MS-SBM-Bioinformatics/blob/master/FILES/shaver_etal.csv)  
+   Экспериментальные данные: [shaver_etal.csv](https://raw.githubusercontent.com/vinni-bio/MS-SBM-Bioinformatics/master/FILES/shaver_etal.csv)  
  
 ## ЛЕКЦИЯ 3. Организация генома эукариот
 
