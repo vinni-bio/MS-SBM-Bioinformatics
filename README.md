@@ -173,10 +173,6 @@ tar xzfv архив.tar.gz
 gunzip путь/к/файлу1.gz 
 ```
 
-### AWK инструкции
-
-### bioawk инструкции
-
 ### Упражнения
 
 ##### 3.1. GREP#3:
@@ -200,3 +196,4 @@ gunzip путь/к/файлу1.gz
    Инструкция к аннотации [SGD_features.README](https://downloads.yeastgenome.org/curation/chromosomal_feature/SGD_features.README)  
    
 
+## ЛЕКЦИЯ 4. Организация генома эукариот
