@@ -104,14 +104,11 @@ E.vec <- vector(mode="raw")			# ПРОСТОЙ
 ##### Способы создания факторных векторов
 ```
 gender <- c("Female", "Male", "Female", "Female", "Male", "Male", "Male", "Female","Male", "Female" )
-fac.gen <- factor(gender)							# СОЗДАНИЕ ФАКТОРНОГО ВЕКТОРА
-levels(fac.gen)									# ПРОВЕРЯЕМ УРОВНИ ФАКТОРОВ
-fac.gen <- factor(gender, levels=c("Male","Female","unknown"))	# ДОБАВЛЯЕМ НОВЫЙ ФАКТОР
-fac.gen										# ПРОВЕРЯЕМ ФАКТОРЫ
+fac.gen <- factor(gender)				# СОЗДАНИЕ ФАКТОРНОГО ВЕКТОРА
+levels(fac.gen)						# ПРОВЕРЯЕМ УРОВНИ ФАКТОРОВ
+fac.gen <- factor(gender, levels=c("Male","Female","unknown"))
 fac.gen <- factor(gender, levels=c("Male","Female","unknown"), labels=c(1,2,0))
-fac.gen										# ПРОВЕРЯЕМ ФАКТОРЫ
 fac.gen <- factor(gender, levels=c("Male","Female","unknown"), labels=c(1,2,0), ordered=TRUE)
-fac.gen										# ПРОВЕРЯЕМ ФАКТОРЫ
 ```
 
 ### 3. Матрицы (matrix)
@@ -138,10 +135,10 @@ A.mat[3:4,1]					# значения 3й и 4й строки 1го столбца
 ```
 A.mat %*% B.mat				# ПЕРЕМНОЖЕНИЕ МАТРИЦ
 t(A.mat)				# ТРАНСПОНИРОВАНИЕ МАТРИЦЫ
-A.mat+t(B.mat)				# ПОПАРНОЕ СЛОЖЕНИЕ 
-t(B.mat)-A.mat				# ПОПАРНОЕ ВЫЧИТАНИЕ
-A.mat*t(B.mat)				# ПОПАРНОЕ УМНОЖЕНИЕ 
-t(B.mat)/A.mat				# ПОПАРНОЕ ДЕЛЕНИЕ 
+A.mat + t(B.mat)			# ПОПАРНОЕ СЛОЖЕНИЕ 
+t(B.mat) - A.mat			# ПОПАРНОЕ ВЫЧИТАНИЕ
+A.mat * t(B.mat)			# ПОПАРНОЕ УМНОЖЕНИЕ 
+t(B.mat) / A.mat			# ПОПАРНОЕ ДЕЛЕНИЕ 
 C.mat <- diag(5)			# СОЗДАНИЕ ДИАГОНАЛЬНОЙ МАТРИЦЫ
 C.mat + 5 				# СКАЛЯРНОЕ СЛОЖЕНИЕ МАТРИЦЫ
 C.mat - 5 				# СКАЛЯРНОЕ ВЫЧИТАНИЕ МАТРИЦЫ
