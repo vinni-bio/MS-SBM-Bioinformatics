@@ -101,7 +101,15 @@ E.vec <- vector(mode="raw")			# ПРОСТОЙ
 ### 2. Факторы (factors)
 
 ##### Способы создания факторных векторов
-
+```
+gender <- c("Female", "Male", "Female", "Female", "Male", "Male", "Male", "Female","Male", "Female" )
+fac.gen <- factor(gender)			# СОЗДАНИЕ ФАКТОРНОГО ВЕКТОРА
+levels(fac.gen)							# ПРОВЕРЯЕМ ФАКТОРЫ
+fac.gen <- factor(gender, levels=c("Male","Female","unknown"))	# ДОБАВЛЯЕМ НОВЫЙ ФАКТОР
+levels(fac.gen)							# ПРОВЕРЯЕМ ФАКТОРЫ
+fac.gen <- factor(gender, levels=c("Male","Female","unknown"), labels=c(1,2,0))	# ДОБАВЛЯЕМ ЯРЛЫКИ
+levels(fac.gen)							# ПРОВЕРЯЕМ ФАКТОРЫ
+```
 
 ### 3. Матрицы (matrix)
 
@@ -173,7 +181,7 @@ dat3 <- merge(dat1,dat2)			# СЛИЯНИЕ ТАБЛИЦ
 merge(dat1,dat2,by="A")				# СЛИЯНИЕ ТАБЛИЦ ЧЕРЕЗ КОЛОНКУ "A"
 edit(dat1)					# РЕДАКТИРОВАНИЕ ТАБЛИЦЫ ВРУЧНУЮ В TEMP ПЕРЕМЕННУЮ
 fix(dat1)					# РЕДАКТИРОВАНИЕ ТАБЛИЦЫ ВРУЧНУЮ
-dat3[order(dat3$B),]			# СОРТИРОВКА ТАБЛИЦЫ ПО СТОЛБЦУ
+dat3[order(dat3$B),]				# СОРТИРОВКА ТАБЛИЦЫ ПО СТОЛБЦУ "В"
 
 ```
 
