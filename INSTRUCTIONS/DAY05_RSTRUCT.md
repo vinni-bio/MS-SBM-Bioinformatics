@@ -50,6 +50,7 @@ min(A)						# элемент с наименьшим значением
 range(A)					# элементы с минимальным и максимальным значениями
 sort(A)						# сортировка элементов вектора по возрастанию
 round(A,2)					# округление элементов вектора до 2го знака
+rev(A) 						# обратный вектор
 ```
 
 ##### Операции с элементами вектора. Индексация элементов объекта в R начинается с 1
@@ -103,12 +104,14 @@ E.vec <- vector(mode="raw")			# ПРОСТОЙ
 ##### Способы создания факторных векторов
 ```
 gender <- c("Female", "Male", "Female", "Female", "Male", "Male", "Male", "Female","Male", "Female" )
-fac.gen <- factor(gender)			# СОЗДАНИЕ ФАКТОРНОГО ВЕКТОРА
-levels(fac.gen)							# ПРОВЕРЯЕМ ФАКТОРЫ
+fac.gen <- factor(gender)							# СОЗДАНИЕ ФАКТОРНОГО ВЕКТОРА
+levels(fac.gen)									# ПРОВЕРЯЕМ УРОВНИ ФАКТОРОВ
 fac.gen <- factor(gender, levels=c("Male","Female","unknown"))	# ДОБАВЛЯЕМ НОВЫЙ ФАКТОР
-levels(fac.gen)							# ПРОВЕРЯЕМ ФАКТОРЫ
-fac.gen <- factor(gender, levels=c("Male","Female","unknown"), labels=c(1,2,0))	# ДОБАВЛЯЕМ ЯРЛЫКИ
-levels(fac.gen)							# ПРОВЕРЯЕМ ФАКТОРЫ
+fac.gen										# ПРОВЕРЯЕМ ФАКТОРЫ
+fac.gen <- factor(gender, levels=c("Male","Female","unknown"), labels=c(1,2,0))
+fac.gen										# ПРОВЕРЯЕМ ФАКТОРЫ
+fac.gen <- factor(gender, levels=c("Male","Female","unknown"), labels=c(1,2,0), ordered=TRUE)
+fac.gen										# ПРОВЕРЯЕМ ФАКТОРЫ
 ```
 
 ### 3. Матрицы (matrix)
