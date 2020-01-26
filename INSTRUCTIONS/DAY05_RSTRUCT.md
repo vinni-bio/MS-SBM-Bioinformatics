@@ -100,7 +100,11 @@ E.vec <- vector(mode="raw")			# ПРОСТОЙ
 ```
 
 ##### Логические векторы (logical)
-
+```
+A.bool <- c(TRUE,TRUE,FALSE,FALSE)
+B.bool <- c(F,F,T,T)
+A.seq>5
+```
 
 ### 2. Факторные векторы (factors)
 
@@ -232,5 +236,4 @@ A.list <- append(A.list,list(letters[1:5]))	# ДОБАВЛЕНИЕ НОВОГО 
 A.list['A'] <- NULL 				# УДАЛЕНИЕ ЭЛЕМЕНТА 'A'
 A.list[4:8] <- NULL 				# УДАЛЕНИЕ C 4 ПО 8 ЭЛЕМЕНТОВ
 B.list <- c(A.list,list(A=1:10))		# СЛИЯНИЕ ДВУХ СПИСКОВ
-
 ```
